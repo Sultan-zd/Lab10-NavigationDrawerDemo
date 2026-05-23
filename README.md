@@ -53,7 +53,7 @@ Une démonstration propre et professionnelle d'une application Android implémen
 
 | Menu Latéral | Liste de Fragments |
 |:---:|:---:|
-| ![Drawer](https://via.placeholder.com/200x400?text=UI+Menu+Lateral) | ![List](https://via.placeholder.com/200x400?text=Fragment+Liste) |
+| ![Drawer](image1.png) | ![List](image2.png) |
 
 *(Remplacez par de réelles captures d'écran de votre projet)*
 
