@@ -1,65 +1,65 @@
 # NavigationDrawerDemo
 
-[![Android Build](https://img.shields.io/badge/Platform-Android-brightgreen.svg)](https://developer.android.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Android Build](https://img.shields.io/badge/Plateforme-Android-brightgreen.svg)](https://developer.android.com)
+[![License: MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A clean and professional demonstration of an Android application implementing a **Navigation Drawer** (Side Menu) using modern Material Design components and Fragment management.
+Une démonstration propre et professionnelle d'une application Android implémentant un **Navigation Drawer** (Menu latéral) utilisant les composants modernes de Material Design et la gestion des Fragments.
 
-## 📱 Features
+## 📱 Fonctionnalités
 
-- **Material Design Navigation Drawer:** Seamless side menu integration using `NavigationView` and `DrawerLayout`.
-- **Fragment Management:** Dynamic switching between multiple fragments (`BlankFragment`, `BlankFragment2`, and `FragmentList`) without reloading the Activity.
-- **Custom Toolbar:** Integration with `androidx.appcompat.widget.Toolbar` for a consistent UI experience.
-- **ListFragment Implementation:** Showcases how to display interactive lists within the navigation architecture.
-- **Responsive Design:** Handles back-press events to close the drawer and fits system windows correctly.
+- **Navigation Drawer Material Design :** Intégration fluide d'un menu latéral utilisant `NavigationView` et `DrawerLayout`.
+- **Gestion des Fragments :** Basculement dynamique entre plusieurs fragments (`BlankFragment`, `BlankFragment2` et `FragmentList`) sans recharger l'Activité.
+- **Barre d'outils personnalisée :** Intégration avec `androidx.appcompat.widget.Toolbar` pour une expérience utilisateur cohérente.
+- **Implémentation de ListFragment :** Illustre comment afficher des listes interactives au sein de l'architecture de navigation.
+- **Design Réactif :** Gère les événements du bouton retour pour fermer le menu et s'adapte correctement aux fenêtres système.
 
-## 🚀 Getting Started
+## 🚀 Pour commencer
 
-### Prerequisites
+### Prérequis
 
-- Android Studio Flamingo | 2022.2.1 or newer
-- Android SDK Level 34 (Target SDK)
-- Gradle 8.0 or newer
+- Android Studio Flamingo | 2022.2.1 ou plus récent
+- SDK Android Niveau 34 (Target SDK)
+- Gradle 8.0 ou plus récent
 
 ### Installation
 
-1. Clone the repository:
+1. Cloner le dépôt :
    ```bash
    git clone https://github.com/Sultan-zd/Lab10-NavigationDrawerDemo.git
    ```
-2. Open the project in **Android Studio**.
-3. Let Gradle synchronize and build the project.
-4. Run the app on an emulator or physical device.
+2. Ouvrir le projet dans **Android Studio**.
+3. Laisser Gradle synchroniser et construire le projet.
+4. Exécuter l'application sur un émulateur ou un appareil physique.
 
-## 🛠 Tech Stack
+## 🛠 Technologies utilisées
 
-- **Language:** Java
-- **UI Framework:** Jetpack (AppCompat, ConstraintLayout, Fragment)
-- **Design:** Material Components for Android
-- **Build System:** Gradle (Kotlin DSL)
+- **Langage :** Java
+- **Framework UI :** Jetpack (AppCompat, ConstraintLayout, Fragment)
+- **Design :** Material Components pour Android
+- **Système de construction :** Gradle (Kotlin DSL)
 
-## 📂 Project Structure
+## 📂 Structure du projet
 
-- `MainActivity.java`: The core activity handling the Drawer layout and Fragment transactions.
-- `FragmentList.java`: Implementation of `ListFragment` to demonstrate list data handling.
-- `res/layout/`:
-    - `activity_main.xml`: Main layout containing `DrawerLayout` and `NavigationView`.
-    - `nav_header_main.xml`: The header view for the navigation side menu.
-    - `content_main.xml`: The main content area where fragments are hosted.
-- `res/menu/`:
-    - `activity_main_drawer.xml`: Definition of the menu items for the side drawer.
+- `MainActivity.java` : L'activité principale gérant la disposition du menu latéral et les transactions de fragments.
+- `FragmentList.java` : Implémentation de `ListFragment` pour démontrer la gestion des données sous forme de liste.
+- `res/layout/` :
+    - `activity_main.xml` : Mise en page principale contenant `DrawerLayout` et `NavigationView`.
+    - `nav_header_main.xml` : La vue d'en-tête pour le menu de navigation latéral.
+    - `content_main.xml` : La zone de contenu principale où les fragments sont hébergés.
+- `res/menu/` :
+    - `activity_main_drawer.xml` : Définition des éléments du menu pour le tiroir latéral.
 
-## 📸 Screenshots
+## 📸 Captures d'écran
 
-| Navigation Drawer | Fragment List |
+| Menu Latéral | Liste de Fragments |
 |:---:|:---:|
-| ![Drawer](https://via.placeholder.com/200x400?text=Drawer+UI) | ![List](https://via.placeholder.com/200x400?text=List+Fragment) |
+| ![Drawer](https://via.placeholder.com/200x400?text=UI+Menu+Lateral) | ![List](https://via.placeholder.com/200x400?text=Fragment+Liste) |
 
-*(Replace with actual screenshots from your project)*
+*(Remplacez par de réelles captures d'écran de votre projet)*
 
-## 📄 License
+## 📄 Licence
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
 
 ---
-Developed by [Sultan-zd](https://github.com/Sultan-zd)
+Développé par [Sultan-zd](https://github.com/Sultan-zd)
